@@ -1,6 +1,7 @@
 import React from 'react';
+import './NotFoundPage.sass'
 
-const NotFound = () => {
+const NotFoundPage = () => {
     return (
         <div className="notfound">
             Страница не найдена
@@ -8,4 +9,4 @@ const NotFound = () => {
     );
 };
 
-export default NotFound;
+export default NotFoundPage;

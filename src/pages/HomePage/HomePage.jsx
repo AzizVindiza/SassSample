@@ -1,5 +1,5 @@
 import React from 'react';
-const Home = () => {
+const HomePage = () => {
     return (
         <>
             123
@@ -7,4 +7,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default HomePage;

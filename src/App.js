@@ -6,16 +6,16 @@ import {
     Route, RouterProvider
 } from "react-router-dom";
 
-import NotFound from "./pages/NotFound/NotFound";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import Layout from "./Layout/Layout";
-import Home from "./pages/Home/Home";
+import HomePage from "./pages/HomePage/HomePage";
 
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Layout/>}>
-            <Route index element={<Home/>}/>
-            <Route path="*" element={<NotFound/>}/>
+            <Route index element={<HomePage/>}/>
+            <Route path="*" element={<NotFoundPage/>}/>
         </Route>
     )
 );
